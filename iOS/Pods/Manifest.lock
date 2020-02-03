@@ -1,0 +1,16 @@
+PODS:
+  - MyFrameworkMj (0.0.1)
+
+DEPENDENCIES:
+  - MyFrameworkMj
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MyFrameworkMj
+
+SPEC CHECKSUMS:
+  MyFrameworkMj: ca1ff2400e0ce3ba9b6b35287062bf00c6d1b205
+
+PODFILE CHECKSUM: 3466c918e88b9cf232f10871fde8c8c8673b3b14
+
+COCOAPODS: 1.8.4
