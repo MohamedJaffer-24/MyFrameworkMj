@@ -13,6 +13,7 @@
 		A10460D523E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D623E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D723E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
+		A104624A23E83BC3006B6340 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104624923E83BC3006B6340 /* Second.swift */; };
 		A192D8F123E802C4007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91023E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91123E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		A10460D423E808D5006B6340 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A104624923E83BC3006B6340 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		A192D8EC23E802C4007F2CE2 /* MyFrameworkMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFrameworkMj.h; sourceTree = "<group>"; };
 		A192D8F023E802C4007F2CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */,
 				A192D8F023E802C4007F2CE2 /* Info.plist */,
 				A10460D423E808D5006B6340 /* Service.swift */,
+				A104624923E83BC3006B6340 /* Second.swift */,
 			);
 			path = MyFrameworkMj;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10460D523E808D5006B6340 /* Service.swift in Sources */,
+				A104624A23E83BC3006B6340 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
