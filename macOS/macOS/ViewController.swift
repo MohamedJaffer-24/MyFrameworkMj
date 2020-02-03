@@ -1,19 +1,24 @@
 //
 //  ViewController.swift
-//  iOS
+//  macOS
 //
 //  Created by Mohamed Jaffer S on 03/02/20.
 //  Copyright © 2020 Mohamed Jaffer S. All rights reserved.
 //
 
-import UIKit
-import MyFrameworkMj
-class ViewController: UIViewController {
+import Cocoa
+class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-        Service.printer()
+    }
+
+    override var representedObject: Any? {
+        didSet {
+        // Update the view, if already loaded.
+        }
     }
 
 

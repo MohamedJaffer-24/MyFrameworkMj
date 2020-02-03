@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "714F1450D611F8122C8F2171A9BD5B1D"
-               BuildableName = "MyFrameworkMj.framework"
-               BlueprintName = "MyFrameworkMj"
+               BlueprintIdentifier = "8E15A87B47471764B5A1EED8EC0AA819"
+               BuildableName = "Pods-macOS.framework"
+               BlueprintName = "Pods-macOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
