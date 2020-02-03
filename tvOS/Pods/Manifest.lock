@@ -2,15 +2,20 @@ PODS:
   - MyFrameworkMj (0.0.1)
 
 DEPENDENCIES:
-  - MyFrameworkMj (from `../../MyFrameworkMj/`)
+  - MyFrameworkMj (from `https://github.com/MohamedJaffer-24/MyFrameworkMj`)
 
 EXTERNAL SOURCES:
   MyFrameworkMj:
-    :path: "../../MyFrameworkMj/"
+    :git: https://github.com/MohamedJaffer-24/MyFrameworkMj
+
+CHECKOUT OPTIONS:
+  MyFrameworkMj:
+    :commit: caec393bdc9038f9abeea717200c444fca76aecc
+    :git: https://github.com/MohamedJaffer-24/MyFrameworkMj
 
 SPEC CHECKSUMS:
   MyFrameworkMj: ca1ff2400e0ce3ba9b6b35287062bf00c6d1b205
 
-PODFILE CHECKSUM: 56a93f027548408e8b14905d5201659e33bba652
+PODFILE CHECKSUM: 9b58f94829b18e89516ade97849dca4ed3cb8830
 
 COCOAPODS: 1.8.4

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F1F056328529CB1D08062D6BD76832C /* Pods-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA4CBDCCF097A9E4959E93B76DFE383 /* Pods-tvOS-dummy.m */; };
 		100D2A8E64717F405113C4721EFEBB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */; };
-		2BEC1F19EE9A856D076B8CD7A0A755E5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35D1EEA257C9A3F8C0E5AA5F599B1F /* Service.swift */; };
-		654AB3E1C60E3B6258027838EC1FB91A /* MyFrameworkMj-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C66F648E869721936246644913CA157 /* MyFrameworkMj-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEC1F19EE9A856D076B8CD7A0A755E5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0B71E6AABE2FB9532885452727D82 /* Service.swift */; };
+		654AB3E1C60E3B6258027838EC1FB91A /* MyFrameworkMj-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BDBA47C44FD6D74DBFADE3F6AD7615 /* MyFrameworkMj-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91A6F250678A10074F8FFFA8048BA103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */; };
-		D0E99CAFE8E5C1CB4DEA0BB126D8A919 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A26B94B5936DA5072C7E4BA8DBF52 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E99CAFE8E5C1CB4DEA0BB126D8A919 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6FB7223406A26B5867907909CD14D4 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F208FA0067E82664D531BA61AE442C43 /* Pods-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6BCB0485E3F303986080FF4341A784 /* Pods-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDAE1AFDB7F3CFB89AA0B7A514FD5387 /* MyFrameworkMj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCC3A890EF4309012A0F50CB3F2FF4B /* MyFrameworkMj-dummy.m */; };
+		FDAE1AFDB7F3CFB89AA0B7A514FD5387 /* MyFrameworkMj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C3B0B1F76D2D3028414B509A2B231 /* MyFrameworkMj-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,30 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B6BFC7BBE4D49B732B6A2D2024EF6D /* MyFrameworkMj.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyFrameworkMj.xcconfig; sourceTree = "<group>"; };
 		0CFD4A310857482D12CB9E1A871F1788 /* Pods-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tvOS-Info.plist"; sourceTree = "<group>"; };
+		0D61C339A8B6D74DC58A1781FD5AE622 /* MyFrameworkMj-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyFrameworkMj-prefix.pch"; sourceTree = "<group>"; };
 		0E3C178779FD6E38127E89B282B4DD3E /* Pods-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tvOS.modulemap"; sourceTree = "<group>"; };
-		153D7B9A29D9A452399CC2E75BAE7E07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2F2F89639BFEE85F5766AF016AC91EF0 /* MyFrameworkMj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyFrameworkMj.modulemap; sourceTree = "<group>"; };
-		35D8449BE1D44D3F84FFC2F32FFDE703 /* MyFrameworkMj.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyFrameworkMj.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		286C3B0B1F76D2D3028414B509A2B231 /* MyFrameworkMj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyFrameworkMj-dummy.m"; sourceTree = "<group>"; };
 		4694CBE3AEE8A778A1F5354788FBEF96 /* Pods-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A35D1EEA257C9A3F8C0E5AA5F599B1F /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = MyFrameworkMj/MyFrameworkMj/Service.swift; sourceTree = "<group>"; };
-		4C66F648E869721936246644913CA157 /* MyFrameworkMj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyFrameworkMj-umbrella.h"; sourceTree = "<group>"; };
-		627A26B94B5936DA5072C7E4BA8DBF52 /* MyFrameworkMj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFrameworkMj.h; path = MyFrameworkMj/MyFrameworkMj/MyFrameworkMj.h; sourceTree = "<group>"; };
+		5B1C84D4D0970E87280E14F3FCF62E02 /* MyFrameworkMj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyFrameworkMj.modulemap; sourceTree = "<group>"; };
 		697FEA5D76596308FFD657A279EED6A0 /* MyFrameworkMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyFrameworkMj.framework; path = MyFrameworkMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B442B15013707D184335AFE91183BB9 /* MyFrameworkMj-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyFrameworkMj-prefix.pch"; sourceTree = "<group>"; };
 		7978A60EBCD0591381D1A7A089C7AD88 /* Pods_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tvOS.framework; path = "Pods-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E24DD2A0F9BA1587E991EB145D01F4C /* Pods-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9F6BCB0485E3F303986080FF4341A784 /* Pods-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		A1E6A7772DA8B4E7BCC11B2915014920 /* Pods-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS-frameworks.sh"; sourceTree = "<group>"; };
-		BBD712E6ECA1A2E8E3D5568702DE9AA8 /* MyFrameworkMj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyFrameworkMj-Info.plist"; sourceTree = "<group>"; };
-		CE8316DEB1017AE65D97A24D94221D6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3A0B71E6AABE2FB9532885452727D82 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = MyFrameworkMj/MyFrameworkMj/Service.swift; sourceTree = "<group>"; };
+		AE0B2DB37BAD76FFBE4F671AB317ABC1 /* MyFrameworkMj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyFrameworkMj-Info.plist"; sourceTree = "<group>"; };
+		BA189F5F94E5E1D2889592760A39F1A5 /* MyFrameworkMj.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyFrameworkMj.xcconfig; sourceTree = "<group>"; };
+		BC6FB7223406A26B5867907909CD14D4 /* MyFrameworkMj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFrameworkMj.h; path = MyFrameworkMj/MyFrameworkMj/MyFrameworkMj.h; sourceTree = "<group>"; };
+		C3BDBA47C44FD6D74DBFADE3F6AD7615 /* MyFrameworkMj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyFrameworkMj-umbrella.h"; sourceTree = "<group>"; };
 		D29C0AA6224A25E2B4858878E2F7A5F1 /* Pods-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		D99607045C1C436E7B404C7DBA61F3B3 /* Pods-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		DBA4CBDCCF097A9E4959E93B76DFE383 /* Pods-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tvOS-dummy.m"; sourceTree = "<group>"; };
-		FBCC3A890EF4309012A0F50CB3F2FF4B /* MyFrameworkMj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyFrameworkMj-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1642072FFFF34AEDCE2C369E858BAF3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C84D4D0970E87280E14F3FCF62E02 /* MyFrameworkMj.modulemap */,
+				BA189F5F94E5E1D2889592760A39F1A5 /* MyFrameworkMj.xcconfig */,
+				286C3B0B1F76D2D3028414B509A2B231 /* MyFrameworkMj-dummy.m */,
+				AE0B2DB37BAD76FFBE4F671AB317ABC1 /* MyFrameworkMj-Info.plist */,
+				0D61C339A8B6D74DC58A1781FD5AE622 /* MyFrameworkMj-prefix.pch */,
+				C3BDBA47C44FD6D74DBFADE3F6AD7615 /* MyFrameworkMj-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MyFrameworkMj";
+			sourceTree = "<group>";
+		};
 		1F9FCB3618DC551B524D67B669081319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,38 +110,6 @@
 			path = "Target Support Files/Pods-tvOS";
 			sourceTree = "<group>";
 		};
-		7183E7986CF7593E3BA257FA191AB642 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AC333A4F3C91BE9DCB40EE87A84319F2 /* MyFrameworkMj */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7A8D93D949B9C95F7C35143FB06834FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F2F89639BFEE85F5766AF016AC91EF0 /* MyFrameworkMj.modulemap */,
-				00B6BFC7BBE4D49B732B6A2D2024EF6D /* MyFrameworkMj.xcconfig */,
-				FBCC3A890EF4309012A0F50CB3F2FF4B /* MyFrameworkMj-dummy.m */,
-				BBD712E6ECA1A2E8E3D5568702DE9AA8 /* MyFrameworkMj-Info.plist */,
-				6B442B15013707D184335AFE91183BB9 /* MyFrameworkMj-prefix.pch */,
-				4C66F648E869721936246644913CA157 /* MyFrameworkMj-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "tvOS/Pods/Target Support Files/MyFrameworkMj";
-			sourceTree = "<group>";
-		};
-		950A271D3B76BB380033FB0AC02040A4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CE8316DEB1017AE65D97A24D94221D6A /* LICENSE */,
-				35D8449BE1D44D3F84FFC2F32FFDE703 /* MyFrameworkMj.podspec */,
-				153D7B9A29D9A452399CC2E75BAE7E07 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A798FD073232CA391441CF4AC7706330 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,24 +119,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC333A4F3C91BE9DCB40EE87A84319F2 /* MyFrameworkMj */ = {
-			isa = PBXGroup;
-			children = (
-				627A26B94B5936DA5072C7E4BA8DBF52 /* MyFrameworkMj.h */,
-				4A35D1EEA257C9A3F8C0E5AA5F599B1F /* Service.swift */,
-				950A271D3B76BB380033FB0AC02040A4 /* Pod */,
-				7A8D93D949B9C95F7C35143FB06834FC /* Support Files */,
-			);
-			name = MyFrameworkMj;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7183E7986CF7593E3BA257FA191AB642 /* Development Pods */,
 				1F9FCB3618DC551B524D67B669081319 /* Frameworks */,
+				EC8D8E0D35A1CF8B110226CA666C44F7 /* Pods */,
 				A798FD073232CA391441CF4AC7706330 /* Products */,
 				FAC96D5C5E4B668A6130DC412466C92F /* Targets Support Files */,
 			);
@@ -169,6 +136,25 @@
 				8143A63A7605FCCE182B0B916B4ED614 /* Foundation.framework */,
 			);
 			name = tvOS;
+			sourceTree = "<group>";
+		};
+		D254E3F3A2A5C882AF21EA9370ACB50E /* MyFrameworkMj */ = {
+			isa = PBXGroup;
+			children = (
+				BC6FB7223406A26B5867907909CD14D4 /* MyFrameworkMj.h */,
+				A3A0B71E6AABE2FB9532885452727D82 /* Service.swift */,
+				1642072FFFF34AEDCE2C369E858BAF3E /* Support Files */,
+			);
+			name = MyFrameworkMj;
+			path = MyFrameworkMj;
+			sourceTree = "<group>";
+		};
+		EC8D8E0D35A1CF8B110226CA666C44F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D254E3F3A2A5C882AF21EA9370ACB50E /* MyFrameworkMj */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FAC96D5C5E4B668A6130DC412466C92F /* Targets Support Files */ = {
@@ -316,7 +302,7 @@
 /* Begin XCBuildConfiguration section */
 		22E229DE79666316DFF00C7DDBDEFD21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B6BFC7BBE4D49B732B6A2D2024EF6D /* MyFrameworkMj.xcconfig */;
+			baseConfigurationReference = BA189F5F94E5E1D2889592760A39F1A5 /* MyFrameworkMj.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -351,7 +337,7 @@
 		};
 		242D88C586E356B400492BCBA44F2183 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B6BFC7BBE4D49B732B6A2D2024EF6D /* MyFrameworkMj.xcconfig */;
+			baseConfigurationReference = BA189F5F94E5E1D2889592760A39F1A5 /* MyFrameworkMj.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
