@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/MohamedJaffer-24/MyFrameworkMj.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "MyFramewokMj/**/*.{h,m,swift}"
+  spec.source_files  = "MyFrameworkMj/**/*.{h,m,swift}"
 
 end
