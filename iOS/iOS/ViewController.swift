@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MyFrameworkMj
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
