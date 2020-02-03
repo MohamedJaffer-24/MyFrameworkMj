@@ -9,5 +9,6 @@ import Foundation
 public class Service {
     public static func printer() {
         print("VCX")
+        Second.printer()
     }
 }

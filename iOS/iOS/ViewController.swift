@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         Service.printer()
+        let ud = UserDefaults.standard
+        var name = ud.object(forKey: "MyName")
+        print(name)
     }
 
 
