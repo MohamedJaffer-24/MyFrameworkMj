@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10460D123E808BD006B6340 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A192D8F023E802C4007F2CE2 /* Info.plist */; };
-		A10460D223E808BD006B6340 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A192D8F023E802C4007F2CE2 /* Info.plist */; };
-		A10460D323E808BE006B6340 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A192D8F023E802C4007F2CE2 /* Info.plist */; };
 		A10460D523E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D623E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D723E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A104624A23E83BC3006B6340 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104624923E83BC3006B6340 /* Second.swift */; };
+		A104624B23E855F2006B6340 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104624923E83BC3006B6340 /* Second.swift */; };
+		A104624C23E855F3006B6340 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104624923E83BC3006B6340 /* Second.swift */; };
 		A192D8F123E802C4007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91023E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91123E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -214,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10460D123E808BD006B6340 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10460D223E808BD006B6340 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10460D323E808BE006B6340 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10460D623E808D5006B6340 /* Service.swift in Sources */,
+				A104624B23E855F2006B6340 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10460D723E808D5006B6340 /* Service.swift in Sources */,
+				A104624C23E855F3006B6340 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
