@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MyFrameworkMj"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.8"
   spec.summary      = "This  one created for testing"
 
   spec.description  = "This pod created by Mohamed Jaffer Mj for testing"
@@ -20,7 +20,6 @@ Pod::Spec.new do |spec|
    spec.tvos.deployment_target = "9.0"
 
   spec.source       = { :git => "https://github.com/MohamedJaffer-24/MyFrameworkMj.git", :tag => "#{spec.version}" }
-    spec.dependency = 'CocoaLumberjack/Swift'
 
   spec.source_files  = "MyFrameworkMj/**/*.{h,m,swift}"
 
