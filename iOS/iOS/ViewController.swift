@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        Service.printer()
+//        Service.printer()
         let ud = UserDefaults.standard
         var name = ud.object(forKey: "MyName")
         print(name)

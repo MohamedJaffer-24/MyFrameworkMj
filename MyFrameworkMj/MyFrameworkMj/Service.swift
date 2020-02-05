@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import CocoaLumberjack
+
 public class Service {
     public static func printer() {
         print("VCX")
         Second.printer()
+        DDLogWarn("Warning da")
     }
 }

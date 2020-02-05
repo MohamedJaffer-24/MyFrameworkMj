@@ -1,5 +1,5 @@
 PODS:
-  - MyFrameworkMj (0.0.7)
+  - MyFrameworkMj (0.0.8)
 
 DEPENDENCIES:
   - MyFrameworkMj
@@ -9,7 +9,7 @@ SPEC REPOS:
     - MyFrameworkMj
 
 SPEC CHECKSUMS:
-  MyFrameworkMj: 6acf15988bbb0c2a49db557d476998296d1c30ff
+  MyFrameworkMj: ad55d72c875815a756b9e1051446adeacd4cccd6
 
 PODFILE CHECKSUM: 09d4252eac2dac28830a0aa542811553c39136f1
 

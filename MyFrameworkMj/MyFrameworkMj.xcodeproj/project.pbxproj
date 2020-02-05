@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95CC6FD9F48F8EB0492C284C /* Pods_MyFrameworkMj_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6C4C72403D767DFB5F05A7 /* Pods_MyFrameworkMj_ios.framework */; };
 		A10460D523E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D623E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
 		A10460D723E808D5006B6340 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10460D423E808D5006B6340 /* Service.swift */; };
@@ -16,9 +17,16 @@
 		A192D8F123E802C4007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91023E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A192D91123E80338007F2CE2 /* MyFrameworkMj.h in Headers */ = {isa = PBXBuildFile; fileRef = A192D8EF23E802C4007F2CE2 /* MyFrameworkMj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C878AB0859470079C9B01D28 /* Pods_MyFrameworkMj_tv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B0BDAFB47C7118BDCE1E43 /* Pods_MyFrameworkMj_tv.framework */; };
+		D5BCBBAD714E1D07F4016BE3 /* Pods_MyFrameworkMj_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AF780799BDCDC31E9E587A /* Pods_MyFrameworkMj_mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D434AFCBC3C4FAE93F7E34 /* Pods-MyFrameworkMj_mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_mac.debug.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_mac/Pods-MyFrameworkMj_mac.debug.xcconfig"; sourceTree = "<group>"; };
+		46B0BDAFB47C7118BDCE1E43 /* Pods_MyFrameworkMj_tv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFrameworkMj_tv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE78545FE62B82CC271622C /* Pods-MyFrameworkMj_tv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_tv.debug.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_tv/Pods-MyFrameworkMj_tv.debug.xcconfig"; sourceTree = "<group>"; };
+		538B60A12C7A9CA097F3E154 /* Pods-MyFrameworkMj_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_ios.debug.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_ios/Pods-MyFrameworkMj_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC422F9E930041E7CB43474 /* Pods-MyFrameworkMj_tv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_tv.release.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_tv/Pods-MyFrameworkMj_tv.release.xcconfig"; sourceTree = "<group>"; };
 		A10460D423E808D5006B6340 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		A104624923E83BC3006B6340 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		A192D8EC23E802C4007F2CE2 /* MyFrameworkMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +34,10 @@
 		A192D8F023E802C4007F2CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A192D8FA23E802DC007F2CE2 /* MyFrameworkMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A192D90723E802EB007F2CE2 /* MyFrameworkMj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFrameworkMj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FA1A6308263493283AC36F /* Pods-MyFrameworkMj_mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_mac.release.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_mac/Pods-MyFrameworkMj_mac.release.xcconfig"; sourceTree = "<group>"; };
+		BA6C4C72403D767DFB5F05A7 /* Pods_MyFrameworkMj_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFrameworkMj_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C642D2A4BC3E97363CF49048 /* Pods-MyFrameworkMj_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFrameworkMj_ios.release.xcconfig"; path = "Target Support Files/Pods-MyFrameworkMj_ios/Pods-MyFrameworkMj_ios.release.xcconfig"; sourceTree = "<group>"; };
+		D1AF780799BDCDC31E9E587A /* Pods_MyFrameworkMj_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFrameworkMj_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BCBBAD714E1D07F4016BE3 /* Pods_MyFrameworkMj_mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C878AB0859470079C9B01D28 /* Pods_MyFrameworkMj_tv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,17 +61,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CC6FD9F48F8EB0492C284C /* Pods_MyFrameworkMj_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C40840C93295571C152725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C4C72403D767DFB5F05A7 /* Pods_MyFrameworkMj_ios.framework */,
+				D1AF780799BDCDC31E9E587A /* Pods_MyFrameworkMj_mac.framework */,
+				46B0BDAFB47C7118BDCE1E43 /* Pods_MyFrameworkMj_tv.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D03E31C8939FC6C09ACF73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538B60A12C7A9CA097F3E154 /* Pods-MyFrameworkMj_ios.debug.xcconfig */,
+				C642D2A4BC3E97363CF49048 /* Pods-MyFrameworkMj_ios.release.xcconfig */,
+				05D434AFCBC3C4FAE93F7E34 /* Pods-MyFrameworkMj_mac.debug.xcconfig */,
+				A6FA1A6308263493283AC36F /* Pods-MyFrameworkMj_mac.release.xcconfig */,
+				4DE78545FE62B82CC271622C /* Pods-MyFrameworkMj_tv.debug.xcconfig */,
+				5DC422F9E930041E7CB43474 /* Pods-MyFrameworkMj_tv.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A192D8E023E802AC007F2CE2 = {
 			isa = PBXGroup;
 			children = (
 				A192D90F23E802F6007F2CE2 /* MyFrameworkMj */,
 				A192D8ED23E802C4007F2CE2 /* Products */,
+				3D03E31C8939FC6C09ACF73E /* Pods */,
+				26C40840C93295571C152725 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A192D8F223E802C4007F2CE2 /* Build configuration list for PBXNativeTarget "MyFrameworkMj_mac" */;
 			buildPhases = (
+				65CBB4374E6611A34CDB7AEA /* [CP] Check Pods Manifest.lock */,
 				A192D8E723E802C4007F2CE2 /* Headers */,
 				A192D8E823E802C4007F2CE2 /* Sources */,
 				A192D8E923E802C4007F2CE2 /* Frameworks */,
@@ -134,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A192D8FF23E802DC007F2CE2 /* Build configuration list for PBXNativeTarget "MyFrameworkMj_tv" */;
 			buildPhases = (
+				9176028D3E58B55CDC5D132A /* [CP] Check Pods Manifest.lock */,
 				A192D8F523E802DC007F2CE2 /* Headers */,
 				A192D8F623E802DC007F2CE2 /* Sources */,
 				A192D8F723E802DC007F2CE2 /* Frameworks */,
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A192D90C23E802EB007F2CE2 /* Build configuration list for PBXNativeTarget "MyFrameworkMj_ios" */;
 			buildPhases = (
+				747837E73FE3E172506EEE3D /* [CP] Check Pods Manifest.lock */,
 				A192D90223E802EB007F2CE2 /* Headers */,
 				A192D90323E802EB007F2CE2 /* Sources */,
 				A192D90423E802EB007F2CE2 /* Frameworks */,
@@ -232,6 +276,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65CBB4374E6611A34CDB7AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFrameworkMj_mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747837E73FE3E172506EEE3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFrameworkMj_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9176028D3E58B55CDC5D132A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFrameworkMj_tv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A192D8E823E802C4007F2CE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +381,8 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MyFrameworkMj;
 			};
 			name = Debug;
@@ -277,12 +392,15 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = MyFrameworkMj;
 			};
 			name = Release;
 		};
 		A192D8F323E802C4007F2CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D434AFCBC3C4FAE93F7E34 /* Pods-MyFrameworkMj_mac.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -364,6 +482,7 @@
 		};
 		A192D8F423E802C4007F2CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FA1A6308263493283AC36F /* Pods-MyFrameworkMj_mac.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -438,6 +557,7 @@
 		};
 		A192D90023E802DC007F2CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE78545FE62B82CC271622C /* Pods-MyFrameworkMj_tv.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -519,6 +639,7 @@
 		};
 		A192D90123E802DC007F2CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC422F9E930041E7CB43474 /* Pods-MyFrameworkMj_tv.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -594,6 +715,7 @@
 		};
 		A192D90D23E802EB007F2CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538B60A12C7A9CA097F3E154 /* Pods-MyFrameworkMj_ios.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -675,6 +797,7 @@
 		};
 		A192D90E23E802EB007F2CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C642D2A4BC3E97363CF49048 /* Pods-MyFrameworkMj_ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
