@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MyFrameworkMj"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "This  one created for testing"
 
   spec.description  = "This pod created by Mohamed Jaffer Mj for testing"
