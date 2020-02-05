@@ -20,6 +20,7 @@ Pod::Spec.new do |spec|
    spec.tvos.deployment_target = "9.0"
 
   spec.source       = { :git => "https://github.com/MohamedJaffer-24/MyFrameworkMj.git", :tag => "#{spec.version}" }
+    spec.dependency = 'CocoaLumberjack/Swift'
 
   spec.source_files  = "MyFrameworkMj/**/*.{h,m,swift}"
 
